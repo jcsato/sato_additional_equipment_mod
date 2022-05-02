@@ -1,1 +1,0 @@
-gfx/entity_sato_additional_equipment.png

@@ -1,8 +1,8 @@
 @echo off
 
-set modname=sato_additional_equipment_main
+set modname=sato_additional_equipment
 set modkitdir=YOUR_MODKIT_BIN_PATH
-set version=2.3
+set version=3.0
 
 echo.
 echo Creating temporary directory...
@@ -24,7 +24,6 @@ REM after build, copy folders to dist\ folder.
 xcopy "%~dp0\tmp_scripts" "%~dp0\dist\scripts" /i /e /y /c
 xcopy "%~dp0\brushes" "%~dp0\dist\brushes" /i /e /y /c
 xcopy "%~dp0\gfx" "%~dp0\dist\gfx" /i /e /y /c
-xcopy "%~dp0\preload" "%~dp0\dist\preload" /i /e /y /c
 
 echo %~dp0
 
@@ -47,7 +46,7 @@ echo Packaging mod into .zip...
 echo.
 
 REM Requires Powershell 5.0 / .NET Framework 4.x (some claim 4, some claim 4.5, some claim 4.8)
-powershell.exe -nologo -noprofile -command "& { Compress-Archive -Force -Path '%~dp0\dist\brushes', '%~dp0\dist\gfx', '%~dp0\dist\preload', '%~dp0\dist\scripts' -DestinationPath '%~dp0\dist\%modname%_%version%.zip' }"
+powershell.exe -nologo -noprofile -command "& { Compress-Archive -Force -Path '%~dp0\dist\brushes', '%~dp0\dist\gfx', '%~dp0\dist\scripts' -DestinationPath '%~dp0\dist\%modname%_%version%.zip' }"
 
 echo.
 echo Cleaning up dist\scripts
@@ -57,7 +56,6 @@ REM Remove dist\scripts directory
 rmdir "%~dp0\dist\scripts" /s /q
 rmdir "%~dp0\dist\brushes" /s /q
 rmdir "%~dp0\dist\gfx" /s /q
-rmdir "%~dp0\dist\preload" /s /q
 
 echo Done.
 

@@ -1,6 +1,6 @@
 @echo off
 
-set modname=sato_additional_equipment_main
+set modname=sato_additional_equipment
 set year=%DATE:~10,4%
 set month=%DATE:~4,2%
 set day=%DATE:~7,2%
