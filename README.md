@@ -16,13 +16,13 @@ A mod for the game Battle Brothers ([Steam](https://store.steampowered.com/app/3
 
 Adds new equipment to the game, including:
 
-- **Hood with Mouth Piece**, a kitbashed 40/0 piece of headgear with 2 color variants. Spawns on Killers on the Run and Brigand Marksman.
-- **Masked Nomad Light Helmet**, a 90/-4 piece of headgear with 8 color variants and a named version. Spawns on Nomad Outlaws and recruitable Nomads, the named version is only appears in shops/loot.
-- **Southern Conic Helmet with Closed Mail**, a 235/-15 helmet southern helmet. Spawns in City-State Armorsmiths and on Officers.
-- **Barbute with Visor**, a 240/-12 helmet with 5 color variants (it's paintable!). Spawns (very occasionally) in Armorsmiths, just like the regular barbute.
-- **Plumed Bascinet with Visor**, a 270/-18 helmet to match the the Blazing Deserts cover art. Spawns in Armorsmiths and on Hedge Knights.
-- **Closed Conic Helmet**, a 3 tiered set of helms to match the Closed Flat Top Helmets (145/-8, 160/-9, and 250/-16). Spawns in Armorsmiths, and some varieties can spawn on Mercenaries.
-- **Iron Pot Helm**, a 330/-28 helmet with 5 color variants (it's also paintable!). Spawns (very occasionally)in Armorsmiths.
+- **[Hood with Mouth Piece](./screenshots/HoodWithMouthPieceItemCard.png)**, a kitbashed 40/0 piece of headgear with 2 color variants. Spawns on Killers on the Run and Brigand Marksman.
+- **[Masked Nomad Light Helmet](./screenshots/MaskedLightNomadHelmetItemCard.png)**, a 90/-4 piece of headgear with 8 color variants and a named version. Spawns on Nomad Outlaws and recruitable Nomads, the named version is only appears in shops/loot.
+- **[Southern Conic Helmet with Closed Mail](./screenshots/SouthernConicHelmetWithClosedMailItemCard.png)**, a 235/-15 helmet southern helmet. Spawns in City-State Armorsmiths and on Officers.
+- **[Barbute with Visor](./screenshots/BarbuteWithVisorItemCard.png)**, a 240/-12 helmet with 5 color variants (it's paintable!). Spawns (very occasionally) in Armorsmiths, just like the regular barbute.
+- **[Plumed Bascinet with Visor](./screenshots/BascinetWithVisorItemCard.png)**, a 270/-18 helmet to match the the Blazing Deserts cover art. Spawns in Armorsmiths and on Hedge Knights.
+- **[Closed Conic Helmet](./screenshots/ClosedConicHelmetItemCard.png)**, a 3 tiered set of helms to match the Closed Flat Top Helmets (145/-8, 160/-9, and 250/-16). Spawns in Armorsmiths, and some varieties can spawn on Mercenaries.
+- **[Iron Pot Helm](./screenshots/IronPotHelmItemCard.png)**, a 330/-28 helmet with 5 color variants (it's also paintable!). Spawns (very occasionally)in Armorsmiths.
 
 ## Requirements
 
