@@ -21,10 +21,10 @@
 		}
 	});
 
-	::mods_hookExactClass("entity/tactical/humans/mercenary", function(m) {
-		local assignRandomEquipment = ::mods_getMember(m, "assignRandomEquipment");
+	::mods_hookExactClass("entity/tactical/humans/mercenary", function(merc) {
+		local assignRandomEquipment = ::mods_getMember(merc, "assignRandomEquipment");
 
-		m.assignRandomEquipment = function() {
+		merc.assignRandomEquipment = function() {
 			assignRandomEquipment();
 
 			if (Math.rand(1, 100) <= 6) {
