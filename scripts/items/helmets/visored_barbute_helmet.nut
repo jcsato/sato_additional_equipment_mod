@@ -30,7 +30,7 @@ visored_barbute_helmet <- inherit("scripts/items/helmets/helmet", {
 		m.Value = 3600;
 		m.Condition = 240;
 		m.ConditionMax = 240;
-		m.StaminaModifier = -12;
+		m.StaminaModifier = -13;
 		m.Vision = -3;
 	}
 

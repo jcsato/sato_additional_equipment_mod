@@ -1,5 +1,9 @@
 # Screenshots
 
+## Reinforced Padded Armor
+
+<img src="./ReinforcedPaddedArmorItemCard.png" width="600">
+
 ## Hood with Mouth Piece
 
 <img src="./HoodWithMouthPieceItemCard.png" width="600">
@@ -10,7 +14,7 @@
 
 ## Southern Conic Helmet with Closed Mail
 
-<img src="./SouthernConicHelmetWithClosedMailItemCard.png" width="600">
+<img src="./SouthernConicHelmetWithClosedMailV2ItemCard.png" width="600">
 
 ## Barbute with Visor
 
