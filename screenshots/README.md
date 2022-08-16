@@ -14,7 +14,7 @@
 
 ## Southern Conic Helmet with Closed Mail
 
-<img src="./SouthernConicHelmetWithClosedMailV2ItemCard.png" width="600">
+<img src="./SouthernConicHelmetWithClosedMailItemCard.png" width="600">
 
 ## Barbute with Visor
 
