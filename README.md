@@ -23,7 +23,7 @@ Adds new equipment to the game, including:
 - **[Barbute with Visor](./screenshots/BarbuteWithVisorItemCard.png)**, a 240/-13 helmet with 5 color variants (it's paintable!). Spawns (very occasionally) in Armorsmiths, just like the regular barbute.
 - **[Plumed Bascinet with Visor](./screenshots/BascinetWithVisorItemCard.png)**, a 270/-18 helmet to match the the Blazing Deserts cover art. Spawns in Armorsmiths and on Hedge Knights.
 - **[Closed Conic Helmet](./screenshots/ClosedConicHelmetItemCard.png)**, a 3 tiered set of helms to match the Closed Flat Top Helmets (145/-8, 160/-9, and 250/-16). Spawns in Armorsmiths, and some varieties can spawn on Mercenaries.
-- **[Iron Pot Helm](./screenshots/IronPotHelmItemCard.png)**, a 325/-23 helmet with 3 color variants. Spawns on Oathtakers and Oathbringers.
+- **[Decorated Great Helm](./screenshots/DecoratedGreatHelmItemCard.png)**, a 325/-23 helmet with 3 color variants. Spawns on Oathtakers and Oathbringers.
 
 ## Requirements
 
