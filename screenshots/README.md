@@ -28,6 +28,6 @@
 
 <img src="./ClosedConicHelmetItemCard.png" width="800">
 
-## Iron Pot Helm
+## Decorated Great Helm
 
-<img src="./IronPotHelmItemCard.png" width="600">
+<img src="./DecoratedGreatHelmItemCard.png" width="600">
