@@ -21,7 +21,8 @@ Adds new equipment to the game, including:
 - **[Masked Nomad Light Helmet](./screenshots/MaskedLightNomadHelmetItemCard.png)**, a 90/-4 piece of headgear with 8 color variants and a named version. Spawns on Nomad Outlaws and recruitable Nomads, the named version is only appears in shops/loot.
 - **[Southern Conic Helmet with Closed Mail](./screenshots/SouthernConicHelmetWithClosedMailItemCard.png)**, a 235/-15 helmet southern helmet. Spawns in City-State Armorsmiths and on Officers.
 - **[Barbute with Visor](./screenshots/BarbuteWithVisorItemCard.png)**, a 240/-13 helmet with 5 color variants (it's paintable!). Spawns (very occasionally) in Armorsmiths, just like the regular barbute.
-- **[Plumed Bascinet with Visor](./screenshots/BascinetWithVisorItemCard.png)**, a 270/-18 helmet to match the the Blazing Deserts cover art. Spawns in Armorsmiths and on Hedge Knights.
+- **[Bascinet with Klappvisier](./screenshots/BascinetWithKlappvisierItemCard.png)**, a 270/-18 helmet with 5 color variants based on [item AK204782](https://objekt.db.dhm.de/objekt/AK204782) in the German Historical Museum. Spawns in Armorsmiths and on Hedge Knights.
+- **[Plumed Bascinet with Visor](./screenshots/BascinetWithVisorItemCard.png)**, a 280/-19 helmet with 5 color variants to match the the Blazing Deserts cover art. Spawns in Armorsmiths, on Hedge Knights, and on Knights.
 - **[Closed Conic Helmet](./screenshots/ClosedConicHelmetItemCard.png)**, a 3 tiered set of helms to match the Closed Flat Top Helmets (145/-8, 160/-9, and 250/-16). Spawns in Armorsmiths, and some varieties can spawn on Mercenaries.
 - **[Decorated Great Helm](./screenshots/DecoratedGreatHelmItemCard.png)**, a 325/-23 helmet with 3 color variants. Spawns on Oathtakers and Oathbringers.
 
@@ -43,13 +44,13 @@ Adds new equipment to the game, including:
 
 ## Customization
 
-It is fairly straightforward to remove an item from showing up in a campaign if you don't like it by removing the relevant script. Suppose you want to remove the Iron Pot Helm - to do so:
+It is fairly straightforward to remove an item from showing up in a campaign if you don't like it by removing the relevant script. Suppose you want to remove the Decorated Great Helm - to do so:
 
 1) Unzip the mod
-2) Navigate to the `scripts/!mods_preload/` folder and delete the `mod_sae_iron_pot_helm.cnut` file
+2) Navigate to the `scripts/!mods_preload/` folder and delete the `mod_sae_decorated_great_helm.cnut` file
 3) Rezip the mod
 
-This should be safe to do mid-campaign as long as you don't delete the corresponding script in the `items` folder (e.g. `scripts/items/iron_pot_helm`); that will prevent loading a save or cause crashes if those items already exist in a stash somewhere, e.g. a shop or the player stash. It might take some time for items to despawn from e.g. shops.
+This should be safe to do mid-campaign as long as you don't delete the corresponding script in the `items` folder (e.g. `scripts/items/decorated_great_helm`); that will prevent loading a save or cause crashes if those items already exist in a stash somewhere, e.g. a shop or the player stash. It might take some time for items to despawn from e.g. shops.
 
 ## Compatibility
 

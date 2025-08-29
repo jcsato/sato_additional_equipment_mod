@@ -1,11 +1,11 @@
-visored_plumed_bascinet_helmet <- inherit("scripts/items/helmets/helmet", {
+bascinet_with_klappvisier <- inherit("scripts/items/helmets/helmet", {
 	m = {},
 	function create()
 	{
 		helmet.create();
-		m.ID = "armor.head.visored_plumed_bascinet_helmet";
-		m.Name = "Plumed Bascinet with Visor";
-		m.Description = "A plumed bascinet with a moveable visor, worn atop a thick mail coif.";
+		m.ID = "armor.head.bascinet_with_klappvisier";
+		m.Name = "Bascinet with Klappvisier";
+		m.Description = "A bascinet with a rudimentary visor, worn with a mail aventail.";
 		m.ShowOnCharacter = true;
 		m.IsDroppedAsLoot = true;
 		m.HideHair = true;
@@ -14,29 +14,29 @@ visored_plumed_bascinet_helmet <- inherit("scripts/items/helmets/helmet", {
 		m.VariantString = "helmet_sae";
 
 		/*
-		 * 43 -> Default
-		 * 44 -> Black
-		 * 45 -> Red-Orange
-		 * 46 -> Blue-White
-		 * 47 -> Green-White-Yellow
-		 * 48 -> Red
+		 * 37 -> Default
+		 * 38 -> Black
+		 * 39 -> Red-Orange
+		 * 40 -> Blue-White
+		 * 41 -> Green-White-Yellow
+		 * 42 -> Red
 		 */
-		local variants = [ 43, 44, 45, 46, 47, 48 ];
+		local variants = [ 37, 38, 39, 40, 41, 42 ];
 		m.Variant = variants[Math.rand(0, variants.len() - 1)];
 		updateVariant();
 
 		m.ImpactSound = Const.Sound.ArmorHalfplateImpact;
 		m.InventorySound = Const.Sound.ArmorHalfplateImpact;
 
-		m.Value = 3100;
-		m.Condition = 280;
-		m.ConditionMax = 280;
-		m.StaminaModifier = -19;
+		m.Value = 2750;
+		m.Condition = 270;
+		m.ConditionMax = 270;
+		m.StaminaModifier = -18;
 		m.Vision = -3;
 	}
 
 	function setPlainVariant() {
-		setVariant(43);
+		setVariant(37);
 	}
 
 	function onPaint( _color ) {
@@ -46,23 +46,23 @@ visored_plumed_bascinet_helmet <- inherit("scripts/items/helmets/helmet", {
 				break;
 
 			case Const.Items.Paint.Black:
-				m.Variant = 44;
+				m.Variant = 38;
 				break;
 
 			case Const.Items.Paint.WhiteBlue:
-				m.Variant = 46;
+				m.Variant = 40;
 				break;
 
 			case Const.Items.Paint.WhiteGreenYellow:
-				m.Variant = 47;
+				m.Variant = 41;
 				break;
 
 			case Const.Items.Paint.OrangeRed:
-				m.Variant = 45;
+				m.Variant = 39;
 				break;
 
 			case Const.Items.Paint.Red:
-				m.Variant = 48;
+				m.Variant = 42;
 				break;
 		}
 

@@ -1,6 +1,7 @@
-::mods_registerMod("sato_additional_equipment", 3.4, "Sato's Additional Equipment");
+::mods_registerMod("sato_additional_equipment", 3.5, "Sato's Additional Equipment");
 
 ::mods_queue("sato_additional_equipment", null, function() {
+	::include("script_hooks/mod_sae_bascinet_with_klappvisier");
 	::include("script_hooks/mod_sae_closed_conic_helmet_with_mail");
 	::include("script_hooks/mod_sae_closed_conic_helmet_with_neckguard");
 	::include("script_hooks/mod_sae_closed_conic_helmet");

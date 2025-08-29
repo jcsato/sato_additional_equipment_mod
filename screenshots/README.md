@@ -20,9 +20,13 @@
 
 <img src="./BarbuteWithVisorItemCard.png" width="600">
 
+## Bascinet with Klappvisier
+
+<img src="./BascinetWithKlappvisierItemCard.png" width="780">
+
 ## Plumed Bascinet with Visor
 
-<img src="./BascinetWithVisorItemCard.png" width="598">
+<img src="./BascinetWithVisorItemCard.png" width="650">
 
 ## Closed Conic Helmet
 
