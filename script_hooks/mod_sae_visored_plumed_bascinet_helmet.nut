@@ -6,7 +6,23 @@
 
 		assignRandomEquipment();
 
-		if (!hasFamedHelmet && Math.rand(1, 100) <= 33) {
+		if (!hasFamedHelmet && Math.rand(1, 100) <= 25) {
+			m.Items.unequip(m.Items.getItemAtSlot(Const.ItemSlot.Head));
+			m.Items.equip(new("scripts/items/helmets/visored_plumed_bascinet_helmet"));
+		}
+	}
+});
+
+::mods_hookExactClass("entity/tactical/humans/knight", function(k) {
+	local assignRandomEquipment = ::mods_getMember(k, "assignRandomEquipment");
+
+	k.assignRandomEquipment = function() {
+		local hasFamedHelmet = m.Items.getItemAtSlot(Const.ItemSlot.Head) != null;
+
+		assignRandomEquipment();
+
+		// Knights only have two helmet options by default, but those should be more common than these
+		if (!hasFamedHelmet && Math.rand(1, 100) <= 25) {
 			m.Items.unequip(m.Items.getItemAtSlot(Const.ItemSlot.Head));
 			m.Items.equip(new("scripts/items/helmets/visored_plumed_bascinet_helmet"));
 		}

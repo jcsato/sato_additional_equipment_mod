@@ -1,4 +1,4 @@
-::mods_registerMod("sato_additional_equipment", 3.5, "Sato's Additional Equipment");
+::mods_registerMod("sato_additional_equipment", 3.5.1, "Sato's Additional Equipment");
 
 ::mods_queue("sato_additional_equipment", null, function() {
 	::include("script_hooks/mod_sae_bascinet_with_klappvisier");
